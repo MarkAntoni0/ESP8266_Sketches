@@ -27,7 +27,7 @@ String inputBuffer = "";
 
 // -------------------- setup() --------------------
 void setup() {
-  Serial.begin(115200);               // Start Serial at 115200 baud for debugging and input
+  Serial.begin(9600);               // Start Serial at 115200 baud for debugging and input
   delay(200);                         // Short delay to let serial come up
   Serial.println();
   Serial.println("ESP8266 Chat Server starting...");
