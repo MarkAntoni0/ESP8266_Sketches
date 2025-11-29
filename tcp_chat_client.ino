@@ -31,7 +31,7 @@ const unsigned long RECONNECT_INTERVAL = 5000; // ms between reconnect attempts
 
 // -------------------- setup() --------------------
 void setup() {
-  Serial.begin(115200);             // Start Serial for debug & operator input
+  Serial.begin(9600);             // Start Serial for debug & operator input
   delay(200);                       // Brief pause to let Serial initialize
   Serial.println();
   Serial.println("ESP8266 Chat Client starting...");
